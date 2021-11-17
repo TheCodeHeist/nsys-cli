@@ -1,0 +1,23 @@
+{
+  "name": "@thecodeheist/nsys",
+  "version": "1.0.2",
+  "description": "A CLI for receiving System and OS details.",
+  "main": "./src/index.js",
+  "bin": {
+    "nsys": "./bin/nsys"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Md. Riyasat Hossain (TheCodeHeist)",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "nsys"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.0"
+  }
+}
